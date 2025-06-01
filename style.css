@@ -92,3 +92,38 @@ footer{
   margin-top: -20px;
   color: rgba(0, 0, 0, 0.684);
 }
+@media screen and (max-width: 450px) {
+    
+  .container{
+  display: flex;
+  margin: 10px;
+  width: 330px;
+  padding: 30px
+}
+   body{
+    overflow: hidden;
+   }
+   
+   footer{
+    display: block;
+    width: 330px;
+    font-size: 10px;
+    text-align: center;
+    
+   }
+   .foot{
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+      gap: 10px;
+      margin-top: 90px;
+      margin-bottom: 10px;
+   }
+   header{
+    margin-top: 1px;
+   }
+   input{
+    margin-top: 10px;
+   
+   }
+   }
